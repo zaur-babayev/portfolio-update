@@ -1,8 +1,7 @@
 /* Font-face declaration */
 @font-face {
     font-family: 'Pp Neue Montreal';
-    src: url('../fonts/pp-neue-montreal.woff2') format('woff2'),
-         url('../fonts/pp-neue-montreal.woff') format('woff');
+    src: url('../fonts/PPNeueMontreal-Variable.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
