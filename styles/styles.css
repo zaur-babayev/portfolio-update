@@ -1,9 +1,9 @@
 /* Font-face declaration */
 @font-face {
     font-family: 'Pp Neue Montreal';
-    src: url('../fonts/PPNeueMontreal-Variable.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+    src: url('../fonts/PPNeueMontreal-Variable.ttf') format('truetype');
+    font-weight: 100 900; /* Supports weights from Thin to Black */
+    font-style: normal;  /* Upright text */
 }
 
 /* General styles */
@@ -25,16 +25,19 @@ body {
 
 header h1 {
     font-size: 2.5rem;
+    font-weight: 700; /* Bold */
     margin: 0;
 }
 
 header h2 {
     font-size: 1.5rem;
+    font-weight: 400; /* Regular */
     margin: 10px 0;
 }
 
 .intro {
     font-size: 1rem;
+    font-weight: 300; /* Light */
     margin: 20px 0;
 }
 
@@ -42,6 +45,7 @@ header h2 {
     color: #006aff;
     text-decoration: none;
     font-size: 1.2rem;
+    font-weight: 500; /* Medium */
     display: block;
     margin: 10px 0;
 }
