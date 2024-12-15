@@ -1,20 +1,27 @@
-/* Font-face declaration */
+/* Font declarations */
 @font-face {
-    font-family: 'Pp Neue Montreal';
-    src: url('../fonts/PPNeueMontreal-Variable.woff2') format('woff2'),
-         url('../fonts/PPNeueMontreal-Variable.woff') format('woff');
-    font-weight: 100 900; /* Supports weights from Thin to Black */
-    font-style: normal;  /* Upright text */
+    font-family: 'PP Neue Bit';
+    src: url('../fonts/PPNeueBit-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Mondwest';
+    src: url('../fonts/PPMondwest-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
 }
 
 /* General styles */
 body {
-    font-family: 'Pp Neue Montreal', sans-serif;
+    font-family: 'PP Neue Bit', sans-serif;
     color: #000;
     margin: 0;
     padding: 0;
     background-color: #fff;
-    line-height: 1.6;
+    line-height: 1;
+    font-size: 1.5rem;
 }
 
 .container {
@@ -25,28 +32,32 @@ body {
 }
 
 header h1 {
+    font-family: 'PP Mondwest', sans-serif;
     font-size: 2.5rem;
     font-weight: 700; /* Bold */
     margin: 0;
+    line-height: 1.6;
+
 }
 
 header h2 {
+    font-family: 'PP Mondwest', sans-serif;
     font-size: 1.5rem;
-    font-weight: 400; /* Regular */
+    font-weight: 700; /* Bold */
     margin: 10px 0;
+    line-height: 1.6;
+
 }
 
 .intro {
-    font-size: 1rem;
-    font-weight: 300; /* Light */
+    font-weight: 400; /* Regular */
     margin: 20px 0;
 }
 
 .links a {
     color: #006aff;
     text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 500; /* Medium */
+    font-weight: 400; /* Regular */
     display: block;
     margin: 10px 0;
 }
