@@ -27,31 +27,32 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding-top: 5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     text-align: center;
 }
 
 header h1 {
     font-family: 'PP Mondwest', sans-serif;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700; /* Bold */
     margin: 0;
-    line-height: 1.6;
-
+    line-height: 1.2;
 }
 
 header h2 {
     font-family: 'PP Mondwest', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700; /* Bold */
-    margin: 10px 0;
+    margin: 2rem 0;
     line-height: 1.6;
-
 }
 
 .intro {
     font-weight: 400; /* Regular */
     margin: 20px 0;
+    font-size: 2.5rem;
 }
 
 .links a, a.links {
@@ -62,9 +63,14 @@ header h2 {
 }
 
 .links a {
-    margin: 10px 0;
+    margin: 10px 20px;
+    display: inline;
 }
 
 .links a:hover, a.links:hover {
     text-decoration: underline;
+}
+
+nav.links {
+    margin-top: 40px;
 }
