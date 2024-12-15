@@ -21,7 +21,7 @@ body {
     padding: 0;
     background-color: #fff;
     line-height: 1;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .container {
@@ -54,14 +54,17 @@ header h2 {
     margin: 20px 0;
 }
 
-.links a {
+.links a, a.links {
     color: #006aff;
     text-decoration: none;
-    font-weight: 400; /* Regular */
+    font-weight: 400;
     display: block;
+}
+
+.links a {
     margin: 10px 0;
 }
 
-.links a:hover {
+.links a:hover, a.links:hover {
     text-decoration: underline;
 }
